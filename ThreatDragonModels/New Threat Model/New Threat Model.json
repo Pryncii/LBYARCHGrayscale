@@ -1732,17 +1732,7 @@
                 "x": 470,
                 "y": 250
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -1764,7 +1754,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Generated Credentials",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1776,13 +1766,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
+              "Generated Credentials"
             ],
             "id": "fec047d0-0d6a-46ca-9a55-06edc236fb01",
             "source": {
@@ -1815,7 +1799,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Store Credentials",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1827,13 +1811,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
+              "Store Credentials"
             ],
             "id": "d0530068-5a40-4e02-884d-b930f8c2527a",
             "source": {
@@ -1843,7 +1821,107 @@
             "target": {
               "cell": "88303171-24c2-4331-b1ed-c76bad81089a",
               "port": "559fc9e2-6057-41c9-8fd2-87cf30db4326"
+            },
+            "vertices": [
+              {
+                "x": 670,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Export Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Export Request"
+            ],
+            "id": "c6e6795d-c4c5-4821-a6f8-28a84dedeb51",
+            "source": {
+              "cell": "3e9ec2fe-dac1-43b4-af01-ceba92286de3",
+              "port": "b07c9e3f-5595-4ae5-b7f7-46f4533d6397"
+            },
+            "target": {
+              "cell": "d4615351-89f8-488c-bdcf-7e83b4ebb8d8",
+              "port": "91a2bfc2-bec5-4a21-81d3-16522cd3cb45"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Exportable Credentials",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Exportable Credentials"
+            ],
+            "id": "990e640a-e7ac-49a5-8aaf-cb7dbde899a6",
+            "source": {
+              "cell": "d4615351-89f8-488c-bdcf-7e83b4ebb8d8",
+              "port": "91a2bfc2-bec5-4a21-81d3-16522cd3cb45"
+            },
+            "target": {
+              "cell": "3e9ec2fe-dac1-43b4-af01-ceba92286de3",
+              "port": "b07c9e3f-5595-4ae5-b7f7-46f4533d6397"
+            },
+            "vertices": [
+              {
+                "x": 136,
+                "y": 360
+              }
+            ]
           },
           {
             "position": {
