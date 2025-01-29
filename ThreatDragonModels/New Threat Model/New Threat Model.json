@@ -3573,8 +3573,8 @@
           },
           {
             "position": {
-              "x": 295,
-              "y": 220
+              "x": 225,
+              "y": 180
             },
             "size": {
               "width": 120,
@@ -3696,8 +3696,8 @@
           },
           {
             "position": {
-              "x": 295,
-              "y": 380
+              "x": 265,
+              "y": 370
             },
             "size": {
               "width": 90,
@@ -3833,62 +3833,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
-            ],
-            "id": "bd98f82e-f8e7-468a-843b-308e401a759e",
-            "source": {
-              "cell": "f0fcdb91-bf17-4ae4-9702-83d065ea7803",
-              "port": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
-            },
-            "target": {
-              "cell": "3d2c0a4a-5cce-4c19-a441-b72c95c24158",
-              "port": "b9cdf923-08c8-4f72-81f3-61e565d361ed"
-            },
-            "vertices": [
-              {
-                "x": 240,
-                "y": 470
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Voter detail Request",
               "description": "",
               "outOfScope": false,
@@ -3913,10 +3857,6 @@
               "port": "e7e49c3c-5db3-4b70-83d2-759adc308c90"
             },
             "vertices": [
-              {
-                "x": 310,
-                "y": 380
-              },
               {
                 "x": 240,
                 "y": 350
@@ -3968,12 +3908,8 @@
             },
             "vertices": [
               {
-                "x": 390,
-                "y": 340
-              },
-              {
-                "x": 370,
-                "y": 360
+                "x": 320,
+                "y": 330
               }
             ]
           },
@@ -3997,7 +3933,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Invalid password, display error",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -4009,69 +3945,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
-            ],
-            "id": "a528cd87-682c-4efa-b4aa-8c2d974ad73e",
-            "source": {
-              "cell": "3d2c0a4a-5cce-4c19-a441-b72c95c24158",
-              "port": "b9cdf923-08c8-4f72-81f3-61e565d361ed"
-            },
-            "target": {
-              "cell": "6704c157-de08-46bb-9ad9-fbcc813e0085",
-              "port": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
-            },
-            "vertices": [
-              {
-                "x": 340,
-                "y": 550
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
+              "Invalid password, display error"
             ],
             "id": "2e4b05b0-7d80-4184-a2ab-6a88f84082df",
             "source": {
@@ -4084,8 +3958,12 @@
             },
             "vertices": [
               {
-                "x": 450,
-                "y": 640
+                "x": 530,
+                "y": 610
+              },
+              {
+                "x": 390,
+                "y": 600
               }
             ]
           },
@@ -4184,7 +4062,11 @@
             },
             "vertices": [
               {
-                "x": 601,
+                "x": 460,
+                "y": 290
+              },
+              {
+                "x": 500,
                 "y": 310
               }
             ]
@@ -4240,8 +4122,12 @@
             },
             "vertices": [
               {
-                "x": 530,
-                "y": 370
+                "x": 430,
+                "y": 360
+              },
+              {
+                "x": 410,
+                "y": 330
               }
             ]
           },
@@ -4341,21 +4227,15 @@
                 }
               }
             ],
-            "id": "acaa58e2-62a1-4904-9b65-d283dcc1de0b",
+            "id": "24e9ca92-9dd1-4301-b5a9-6ade6e9d36ec",
             "source": {
-              "x": 420,
-              "y": 250
+              "cell": "209144d7-bf76-4dee-9292-1d1400e45e91",
+              "port": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
             },
             "target": {
               "cell": "487c6f08-c502-4552-8e32-056fb054f1f3",
-              "port": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
-            },
-            "vertices": [
-              {
-                "x": 490,
-                "y": 250
-              }
-            ]
+              "port": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
+            }
           },
           {
             "shape": "flow",
@@ -4397,15 +4277,175 @@
                 }
               }
             ],
-            "id": "24e9ca92-9dd1-4301-b5a9-6ade6e9d36ec",
+            "id": "c68266b7-8528-4c74-a3f6-01acaf03aff4",
             "source": {
-              "x": 640,
-              "y": 350
+              "cell": "487c6f08-c502-4552-8e32-056fb054f1f3",
+              "port": "19faca6d-a9c6-4f5e-a9fa-85da0c038a31"
+            },
+            "target": {
+              "cell": "41cf3bfe-924a-4b0a-9f12-e4244fbd30ab",
+              "port": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  }
+                }
+              }
+            ],
+            "id": "acaa58e2-62a1-4904-9b65-d283dcc1de0b",
+            "source": {
+              "cell": "7a59de66-3363-4e9c-a473-11f57f3c22e8",
+              "port": "32b3e212-92e3-4d33-a1f3-65a968540c9c"
             },
             "target": {
               "cell": "487c6f08-c502-4552-8e32-056fb054f1f3",
+              "port": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Ballot with voter\ncollege and batch",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Ballot with voter\ncollege and batch"
+            ],
+            "id": "084fc5d9-2886-4aef-878d-9cb8b301d3d8",
+            "source": {
+              "cell": "f0fcdb91-bf17-4ae4-9702-83d065ea7803",
+              "port": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
+            },
+            "target": {
+              "cell": "3d2c0a4a-5cce-4c19-a441-b72c95c24158",
+              "port": "b9cdf923-08c8-4f72-81f3-61e565d361ed"
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 425
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Ballot with completed details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Ballot with completed details"
+            ],
+            "id": "3c699f07-3ea8-42d6-a548-55a2ccd90808",
+            "source": {
+              "cell": "3d2c0a4a-5cce-4c19-a441-b72c95c24158",
+              "port": "eeca76f8-d179-4737-b5b8-6aa3b63008cd"
+            },
+            "target": {
+              "cell": "6704c157-de08-46bb-9ad9-fbcc813e0085",
               "port": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
-            }
+            },
+            "vertices": [
+              {
+                "x": 150,
+                "y": 510
+              },
+              {
+                "x": 210,
+                "y": 510
+              }
+            ]
           },
           {
             "position": {
@@ -4528,8 +4568,8 @@
           },
           {
             "position": {
-              "x": 600,
-              "y": 350
+              "x": 550,
+              "y": 400
             },
             "size": {
               "width": 80,
@@ -4647,8 +4687,8 @@
           },
           {
             "position": {
-              "x": 550,
-              "y": 170
+              "x": 610,
+              "y": 180
             },
             "size": {
               "width": 90,
@@ -4766,8 +4806,8 @@
           },
           {
             "position": {
-              "x": 790,
-              "y": 240
+              "x": 880,
+              "y": 310
             },
             "size": {
               "width": 112.5,
@@ -4877,6 +4917,244 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 718,
+              "y": 280
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Generate Json File\nand Message digest"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
+                },
+                {
+                  "group": "right",
+                  "id": "19faca6d-a9c6-4f5e-a9fa-85da0c038a31"
+                },
+                {
+                  "group": "bottom",
+                  "id": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
+                },
+                {
+                  "group": "left",
+                  "id": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
+                }
+              ]
+            },
+            "id": "41cf3bfe-924a-4b0a-9f12-e4244fbd30ab",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Process",
+              "name": "Generate Json File\nand Message digest",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 687,
+              "y": 410
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Create signed ballot\nusing base 64\nformat"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
+                },
+                {
+                  "group": "right",
+                  "id": "19faca6d-a9c6-4f5e-a9fa-85da0c038a31"
+                },
+                {
+                  "group": "bottom",
+                  "id": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
+                },
+                {
+                  "group": "left",
+                  "id": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
+                }
+              ]
+            },
+            "id": "890ac09e-b582-405c-9596-7495a1b2c064",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Process",
+              "name": "Create signed ballot\nusing base 64\nformat",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           }
