@@ -815,13 +815,16 @@
           {
             "position": {
               "x": 90,
-              "y": 180
+              "y": 195
             },
             "size": {
               "width": 150,
               "height": 79.99999999999999
             },
             "attrs": {
+              "text": {
+                "text": "Administrator"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -916,7 +919,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Administrator",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -927,14 +930,17 @@
           },
           {
             "position": {
-              "x": 400,
-              "y": 175
+              "x": 410,
+              "y": 190
             },
             "size": {
               "width": 90,
               "height": 90
             },
             "attrs": {
+              "text": {
+                "text": "Administrator Authentication"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1029,7 +1035,7 @@
             "zIndex": 2,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Administrator Authentication",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1043,7 +1049,7 @@
           },
           {
             "position": {
-              "x": 370,
+              "x": 395,
               "y": 46
             },
             "size": {
@@ -1051,6 +1057,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "MongoDB"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -1148,7 +1157,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "MongoDB",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1276,6 +1285,62 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  }
+                }
+              }
+            ],
+            "id": "b8a44991-8841-4702-a9cf-659d450aba8c",
+            "source": {
+              "cell": "d327a6eb-7837-46be-9abf-7d292096081a",
+              "port": "cb39d768-c90e-426a-86a8-5403106a00eb"
+            },
+            "target": {
+              "cell": "d9ba4d22-0197-4db2-9c6a-ab9821c8234c",
+              "port": "235f57b8-77da-4240-a547-51f97aadfad1"
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 170
+              }
+            ]
           }
         ]
       },
