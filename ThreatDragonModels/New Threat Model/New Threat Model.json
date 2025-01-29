@@ -42,6 +42,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -125,7 +126,6 @@
               ]
             },
             "id": "49641c60-bd15-4f21-9178-b01c709b2804",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Voter",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,7 +242,6 @@
               ]
             },
             "id": "8ff38df5-6e4c-4026-9458-0762fc252de4",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Voter Login",
@@ -277,6 +277,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -372,8 +373,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -399,6 +399,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -482,7 +483,6 @@
               ]
             },
             "id": "2f103b1d-5714-4ff0-864c-c577b6436773",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -768,7 +768,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Display Dashboard",
+              "name": "Dashboard Data",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -780,9 +780,9 @@
               "threats": []
             },
             "labels": [
-              "Display Dashboard"
+              "Dashboard Data"
             ],
-            "id": "ce963081-b772-451d-a07c-6b2abb7b5610",
+            "id": "4619391f-1f13-4163-b45e-4fd3feaebede",
             "source": {
               "cell": "73c9a610-8dd4-4322-b23b-795dded06845",
               "port": "605b6e25-f1c9-4523-a4ab-e038e51f6c9d"
@@ -793,11 +793,7 @@
             },
             "vertices": [
               {
-                "x": 410,
-                "y": 400
-              },
-              {
-                "x": 300,
+                "x": 320,
                 "y": 400
               }
             ]
