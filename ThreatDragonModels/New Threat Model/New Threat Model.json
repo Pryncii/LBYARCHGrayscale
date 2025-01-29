@@ -4141,7 +4141,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Encrypted Keys",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -4153,69 +4153,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
-            ],
-            "id": "dbd2cfda-47fa-46c8-be2a-c62c7bac8f9b",
-            "source": {
-              "cell": "487c6f08-c502-4552-8e32-056fb054f1f3",
-              "port": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
-            },
-            "target": {
-              "cell": "7a59de66-3363-4e9c-a473-11f57f3c22e8",
-              "port": "32b3e212-92e3-4d33-a1f3-65a968540c9c"
-            },
-            "vertices": [
-              {
-                "x": 480,
-                "y": 190
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
+              "Encrypted Keys"
             ],
             "id": "acaa58e2-62a1-4904-9b65-d283dcc1de0b",
             "source": {
@@ -4228,8 +4166,12 @@
             },
             "vertices": [
               {
+                "x": 470,
+                "y": 230
+              },
+              {
                 "x": 490,
-                "y": 250
+                "y": 230
               }
             ]
           },
@@ -4357,7 +4299,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "validated user's\ndetails from\nballot",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -4369,27 +4311,21 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
+              "validated user's\ndetails from\nballot"
             ],
-            "id": "df5ed8e6-3235-4e16-b893-b4e588a1b473",
+            "id": "550aa93b-6d0d-4f39-a899-5ebcbce873d5",
             "source": {
-              "cell": "487c6f08-c502-4552-8e32-056fb054f1f3",
-              "port": "19faca6d-a9c6-4f5e-a9fa-85da0c038a31"
+              "cell": "209144d7-bf76-4dee-9292-1d1400e45e91",
+              "port": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
             },
             "target": {
-              "cell": "41cf3bfe-924a-4b0a-9f12-e4244fbd30ab",
-              "port": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
+              "cell": "487c6f08-c502-4552-8e32-056fb054f1f3",
+              "port": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
             },
             "vertices": [
               {
-                "x": 770,
-                "y": 220
+                "x": 610,
+                "y": 320
               }
             ]
           },
@@ -4413,7 +4349,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "authenticated user's\ndetails",
+              "name": "Encrypted Key Request",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -4425,17 +4361,125 @@
               "threats": []
             },
             "labels": [
-              "authenticated user's\ndetails"
+              "Encrypted Key Request"
             ],
-            "id": "550aa93b-6d0d-4f39-a899-5ebcbce873d5",
+            "id": "fe5b8eb2-6941-4959-a8c7-6d7f15167cba",
             "source": {
-              "cell": "209144d7-bf76-4dee-9292-1d1400e45e91",
-              "port": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
+              "cell": "487c6f08-c502-4552-8e32-056fb054f1f3",
+              "port": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
             },
             "target": {
+              "cell": "7a59de66-3363-4e9c-a473-11f57f3c22e8",
+              "port": "32b3e212-92e3-4d33-a1f3-65a968540c9c"
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 180
+              },
+              {
+                "x": 420,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "original ballot with digital\nsignature",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "original ballot with digital\nsignature"
+            ],
+            "id": "04120917-b802-48bc-9352-6227ee7263a5",
+            "source": {
               "cell": "487c6f08-c502-4552-8e32-056fb054f1f3",
-              "port": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
+              "port": "19faca6d-a9c6-4f5e-a9fa-85da0c038a31"
+            },
+            "target": {
+              "cell": "41cf3bfe-924a-4b0a-9f12-e4244fbd30ab",
+              "port": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Message digest\nwith private\nkey",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Message digest\nwith private\nkey"
+            ],
+            "id": "db340ce7-0d52-44e8-861c-166acad21aa2",
+            "source": {
+              "cell": "41cf3bfe-924a-4b0a-9f12-e4244fbd30ab",
+              "port": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
+            },
+            "target": {
+              "cell": "890ac09e-b582-405c-9596-7495a1b2c064",
+              "port": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": 400
+              },
+              {
+                "x": 730,
+                "y": 430
+              }
+            ]
           },
           {
             "position": {
@@ -4677,7 +4721,7 @@
           },
           {
             "position": {
-              "x": 610,
+              "x": 590,
               "y": 165
             },
             "size": {
@@ -4796,8 +4840,8 @@
           },
           {
             "position": {
-              "x": 880,
-              "y": 310
+              "x": 578.75,
+              "y": 640
             },
             "size": {
               "width": 112.5,
@@ -4912,8 +4956,8 @@
           },
           {
             "position": {
-              "x": 740,
-              "y": 290
+              "x": 680,
+              "y": 255
             },
             "size": {
               "width": 100,
@@ -5031,8 +5075,8 @@
           },
           {
             "position": {
-              "x": 687,
-              "y": 410
+              "x": 740,
+              "y": 460
             },
             "size": {
               "width": 100,
@@ -5040,7 +5084,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Create signed ballot\nusing base 64\nformat"
+                "text": "Create signed ballot\nand encode\nwith base 64\nformat"
               },
               "body": {
                 "stroke": "#333333",
@@ -5136,7 +5180,7 @@
             "zIndex": 16,
             "data": {
               "type": "tm.Process",
-              "name": "Create signed ballot\nusing base 64\nformat",
+              "name": "Create signed ballot\nand encode\nwith base 64\nformat",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
