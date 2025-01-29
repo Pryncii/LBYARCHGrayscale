@@ -3457,8 +3457,8 @@
         "cells": [
           {
             "position": {
-              "x": 50,
-              "y": 310
+              "x": 30,
+              "y": 320
             },
             "size": {
               "width": 112.5,
@@ -3964,6 +3964,10 @@
               {
                 "x": 390,
                 "y": 600
+              },
+              {
+                "x": 160,
+                "y": 540
               }
             ]
           },
@@ -4270,12 +4274,8 @@
             },
             "vertices": [
               {
-                "x": 150,
-                "y": 510
-              },
-              {
                 "x": 210,
-                "y": 510
+                "y": 490
               }
             ]
           },
@@ -4472,12 +4472,212 @@
             },
             "vertices": [
               {
-                "x": 680,
-                "y": 400
-              },
+                "x": 810,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "signed ballot, original ballot, public key,\nand Base64-encoded signed ballot",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "signed ballot, original ballot, public key,\nand Base64-encoded signed ballot"
+            ],
+            "id": "d14c4343-b871-4c46-ae41-c26f6872a665",
+            "source": {
+              "cell": "890ac09e-b582-405c-9596-7495a1b2c064",
+              "port": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
+            },
+            "target": {
+              "cell": "8cae9a2c-4fc3-4ff1-8de3-4e526c711248",
+              "port": "de91829a-539f-4279-bf32-69daac9247bb"
+            },
+            "vertices": [
               {
                 "x": 730,
-                "y": 430
+                "y": 600
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Smart contract call",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Smart contract call"
+            ],
+            "id": "eed70c6c-08ee-47bf-8abd-9d21ab172784",
+            "source": {
+              "cell": "8cae9a2c-4fc3-4ff1-8de3-4e526c711248",
+              "port": "fb29cf35-79a1-4d2f-9906-1710ed9db76a"
+            },
+            "target": {
+              "cell": "8a91ba3b-68d4-458e-a3d7-5122d435c393",
+              "port": "19faca6d-a9c6-4f5e-a9fa-85da0c038a31"
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 650
+              },
+              {
+                "x": 520,
+                "y": 650
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Return Status",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Return Status"
+            ],
+            "id": "b2dac44d-8a18-4b01-bf2c-864c87c4d329",
+            "source": {
+              "cell": "8a91ba3b-68d4-458e-a3d7-5122d435c393",
+              "port": "19faca6d-a9c6-4f5e-a9fa-85da0c038a31"
+            },
+            "target": {
+              "cell": "8cae9a2c-4fc3-4ff1-8de3-4e526c711248",
+              "port": "fb29cf35-79a1-4d2f-9906-1710ed9db76a"
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 710
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Transaction Status",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Transaction Status"
+            ],
+            "id": "a78f0864-daa8-4935-8a84-add735cb180b",
+            "source": {
+              "cell": "8cae9a2c-4fc3-4ff1-8de3-4e526c711248",
+              "port": "eeca76f8-d179-4737-b5b8-6aa3b63008cd"
+            },
+            "target": {
+              "cell": "3d2c0a4a-5cce-4c19-a441-b72c95c24158",
+              "port": "fb29cf35-79a1-4d2f-9906-1710ed9db76a"
+            },
+            "vertices": [
+              {
+                "x": 100,
+                "y": 710
               }
             ]
           },
@@ -4956,8 +5156,8 @@
           },
           {
             "position": {
-              "x": 680,
-              "y": 255
+              "x": 780,
+              "y": 290
             },
             "size": {
               "width": 100,
@@ -5076,7 +5276,7 @@
           {
             "position": {
               "x": 740,
-              "y": 460
+              "y": 470
             },
             "size": {
               "width": 100,
@@ -5181,6 +5381,125 @@
             "data": {
               "type": "tm.Process",
               "name": "Create signed ballot\nand encode\nwith base 64\nformat",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 380,
+              "y": 650
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Record\nVote"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "80cb4dfa-c87b-4b18-87b5-7027f4200ad2"
+                },
+                {
+                  "group": "right",
+                  "id": "19faca6d-a9c6-4f5e-a9fa-85da0c038a31"
+                },
+                {
+                  "group": "bottom",
+                  "id": "153f4aa4-14c7-41cf-94b6-56a23c14f424"
+                },
+                {
+                  "group": "left",
+                  "id": "ce59ad40-9921-4e4a-b1d1-09af27f91ca0"
+                }
+              ]
+            },
+            "id": "8a91ba3b-68d4-458e-a3d7-5122d435c393",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Process",
+              "name": "Record\nVote",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
