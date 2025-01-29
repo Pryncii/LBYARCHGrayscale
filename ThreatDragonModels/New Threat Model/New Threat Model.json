@@ -7037,60 +7037,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Transaction statu",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Transaction statu"
-            ],
-            "id": "692bd190-61bf-41f6-bf03-9dd0251d0bd2",
-            "source": {
-              "cell": "3f8ba7e6-4932-4b77-8da4-896c0ad2edba",
-              "port": "5454bb24-d3be-44da-b3b6-541b91e41253"
-            },
-            "target": {
-              "cell": "8ecb83f7-c203-4ebc-8c20-e186e2fa22d4",
-              "port": "5454bb24-d3be-44da-b3b6-541b91e41253"
-            },
-            "vertices": [
-              {
-                "x": -70,
-                "y": 470
-              },
-              {
-                "x": -100,
-                "y": 320
-              }
-            ]
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -7221,6 +7167,60 @@
               {
                 "x": -60,
                 "y": 550
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Transaction status",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Transaction status"
+            ],
+            "id": "692bd190-61bf-41f6-bf03-9dd0251d0bd2",
+            "source": {
+              "cell": "3f8ba7e6-4932-4b77-8da4-896c0ad2edba",
+              "port": "5454bb24-d3be-44da-b3b6-541b91e41253"
+            },
+            "target": {
+              "cell": "8ecb83f7-c203-4ebc-8c20-e186e2fa22d4",
+              "port": "5454bb24-d3be-44da-b3b6-541b91e41253"
+            },
+            "vertices": [
+              {
+                "x": -70,
+                "y": 470
+              },
+              {
+                "x": -100,
+                "y": 320
               }
             ]
           },
