@@ -823,7 +823,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Administrator"
+                "text": "Administrator's Browser"
               },
               "body": {
                 "stroke": "#333333",
@@ -833,6 +833,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -916,10 +917,9 @@
               ]
             },
             "id": "d327a6eb-7837-46be-9abf-7d292096081a",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
-              "name": "Administrator",
+              "name": "Administrator's Browser",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -939,7 +939,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Administrator Authentication"
+                "text": "Administrator\nAuthentication"
               },
               "body": {
                 "stroke": "#333333",
@@ -949,6 +949,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1032,10 +1033,9 @@
               ]
             },
             "id": "d9ba4d22-0197-4db2-9c6a-ab9821c8234c",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
-              "name": "Administrator Authentication",
+              "name": "Administrator\nAuthentication",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1071,6 +1071,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1154,7 +1155,6 @@
               ]
             },
             "id": "b1fe6340-7a67-447c-83ed-49b51f93867e",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -1172,14 +1172,17 @@
           },
           {
             "position": {
-              "x": 648,
-              "y": 175
+              "x": 678,
+              "y": 195
             },
             "size": {
               "width": 80,
               "height": 80
             },
             "attrs": {
+              "text": {
+                "text": "Render Administrator\n Dashboard"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -1188,6 +1191,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -1271,10 +1275,9 @@
               ]
             },
             "id": "d8cc2fcd-45b2-47a3-ba19-f76757d29bd7",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Render Administrator\n Dashboard",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1306,7 +1309,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Admin Credentials",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1318,13 +1321,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  }
-                }
-              }
+              "Admin Credentials"
             ],
             "id": "b8a44991-8841-4702-a9cf-659d450aba8c",
             "source": {
@@ -1341,6 +1338,204 @@
                 "y": 170
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Invalid credentials, display error message",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Invalid credentials, display error message"
+            ],
+            "id": "257f5e0e-ad73-47b7-9a62-c86ef2a71174",
+            "source": {
+              "cell": "d9ba4d22-0197-4db2-9c6a-ab9821c8234c",
+              "port": "235f57b8-77da-4240-a547-51f97aadfad1"
+            },
+            "target": {
+              "cell": "d327a6eb-7837-46be-9abf-7d292096081a",
+              "port": "cb39d768-c90e-426a-86a8-5403106a00eb"
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validate Credentials\nRequest",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Validate Credentials\nRequest"
+            ],
+            "id": "99c42067-8973-468e-a000-57ec3e6157b1",
+            "source": {
+              "cell": "d9ba4d22-0197-4db2-9c6a-ab9821c8234c",
+              "port": "cfa32f29-52fb-46ad-8b9b-a28b0cf95385"
+            },
+            "target": {
+              "cell": "b1fe6340-7a67-447c-83ed-49b51f93867e",
+              "port": "0224b4fb-cc97-44a2-9b13-0eef0fef27a0"
+            },
+            "vertices": [
+              {
+                "x": 420,
+                "y": 170
+              },
+              {
+                "x": 410,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validation\nResult",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Validation\nResult"
+            ],
+            "id": "a07ee004-93a0-44e8-b648-b4fd881e9331",
+            "source": {
+              "cell": "b1fe6340-7a67-447c-83ed-49b51f93867e",
+              "port": "0224b4fb-cc97-44a2-9b13-0eef0fef27a0"
+            },
+            "target": {
+              "cell": "d9ba4d22-0197-4db2-9c6a-ab9821c8234c",
+              "port": "cfa32f29-52fb-46ad-8b9b-a28b0cf95385"
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Valid credentials,\nproceed",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Valid credentials,\nproceed"
+            ],
+            "id": "5ae8281b-8522-4bc7-bb6e-fd335552a05b",
+            "source": {
+              "cell": "d9ba4d22-0197-4db2-9c6a-ab9821c8234c",
+              "port": "505b40b0-21fc-44ea-ad3c-bd5db2ac2e2a"
+            },
+            "target": {
+              "cell": "d8cc2fcd-45b2-47a3-ba19-f76757d29bd7",
+              "port": "235f57b8-77da-4240-a547-51f97aadfad1"
+            }
           }
         ]
       },
